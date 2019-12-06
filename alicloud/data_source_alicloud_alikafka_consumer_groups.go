@@ -9,6 +9,8 @@ import (
 	"github.com/terraform-providers/terraform-provider-alicloud/alicloud/connectivity"
 )
 
+//////
+
 func dataSourceAlicloudAlikafkaConsumerGroups() *schema.Resource {
 	return &schema.Resource{
 		Read: dataSourceAlicloudAlikafkaConsumerGroupsRead,
